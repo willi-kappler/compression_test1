@@ -1,0 +1,10 @@
+[package]
+name = "compression_test1"
+version = "0.1.0"
+authors = ["Willi Kappler, grandor@gmx.de"]
+
+[lib]
+name = "compression1"
+path = "src/compression1.rs"
+
+#[dependencies]
