@@ -27,4 +27,6 @@ fn main() {
     println!("Date: {:0>8x}, {:0>32b}", d1, d1);
     println!("Time: {:0>8x}, {:0>32b}", t1, t1);
     println!("DT  : {:0>8x}, {:0>32b}", dt1, dt1);
+
+    println!("Decoded: {:?}", decode_date_time(dt1));
 }
